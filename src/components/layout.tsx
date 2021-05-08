@@ -13,7 +13,7 @@ export default function Layout({ children }) {
                     Scores are calculated as specified in <Link to="https://www.ibo.org/contentassets/4d92e48d38a4415a87e11555e143a39f/assessment-guide-for-teachers-and-coordinators-en.pdf">this document</Link>
                 </Typography>
                 <Typography style={{ width: "100%", marginTop: "20px", textAlign: "center" }}>
-                    © 2021 Nathan Kutzan | <Link to="">Open Source</Link>
+                    © 2021 Nathan Kutzan | <Link to="https://github.com/natekfl/IBEstimator">Open Source</Link>
                 </Typography>
             </Container>
         </>
