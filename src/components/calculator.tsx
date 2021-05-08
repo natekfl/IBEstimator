@@ -25,7 +25,7 @@ export default function Calculator({ data }: CalculatorInput) {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Typography variant="h5">{data.title}</Typography>
             <div style={{ margin: "20px" }}>
-                <FormControl variant="outlined" style={{ width: "20em" }}>
+                <FormControl variant="outlined" style={{ width: "15em" }}>
                     <InputLabel>Class</InputLabel>
                     <Select
                         value={className}
